@@ -6,6 +6,63 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "patrickarruda30@gmail.com",
+      "password": "$2a$10$XB5poKRkpGQu4FFbjkLdV.wP0ZcBI2lYPsFOGs7QS7t8KCX59LxY.",
+      "name": "Patrick",
+      "age": 22,
+      "id": 2
+    }
+  ],
+  "dependents": [
+    {
+      "name": "Benjamin",
+      "type": "Pet",
+      "age": 5,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Mari Santos",
+      "type": "wife",
+      "age": 31,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Nelma",
+      "type": "parents",
+      "age": 61,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Pamela",
+      "type": "brothers",
+      "age": 25,
+      "userId": 2,
+      "id": 4
+    }
+  ],
+  "contacts": [
+    {
+      "phoneNumber": "51983238380",
+      "type": "Phone",
+      "country": "Brasil",
+      "state": "Rio Grande do Sul",
+      "city": "Canoas",
+      "address": "Rua Boqueirão",
+      "number": 3521,
+      "CEP": 92200170,
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "groups": [
+    {
+      "name": "We love React",
+      "id": 1
     }
   ]
 }
