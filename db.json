@@ -15,54 +15,63 @@
       "id": 2
     }
   ],
-  "dependents": [
+  "products": [
     {
-      "name": "Benjamin",
-      "type": "Pet",
-      "age": 5,
-      "userId": 2,
+      "image": "https://previews.dropbox.com/p/thumb/ABWQ941cxBFbZTozmbkswtdRB7mZMVB6U0U4KuCTzM9hesCYCJ933yyNm-rWRk8BOYUr-HTojXcPlUbO3AjaDVr8DlkZWrN48R3ckiw7zc75WJim1TRg21StZdyYd-FB3TZ1c2S-TbaMXgB8WjP7NDKwSk_6VLnmhVAyt850KYTdIBXwgZp7mM1djOF8uTeRqYoWoAiUxbP0C-jMCot8OsEcnZGh8J8Jq4xq3wu2seR-f2ZZnwnXkcZme-_T747naQQMjbsuPf0RpUSRlIZVHzSSSxCKX6CDMGGjzO3ky7YgCg1IqvTWV_XIPlstBn_75TTxWugwB3s4kAvEu7XVHqM-NHAZu0PrAGwkMO2T17JHtw/p.png?fv_content=true&size_mode=5",
+      "name": "Hamburguer",
+      "category": "Sanduíches",
+      "price": 14.0,
       "id": 1
     },
     {
-      "name": "Mari Santos",
-      "type": "wife",
-      "age": 31,
-      "userId": 2,
+      "image": "https://previews.dropbox.com/p/thumb/ABX5k_SG4FOAIPmeMD2z_Eh5aFzFFybP3MVSrZ9mboG5PicX1k9u2XIPiVW_reeM4EFIJpTwNyZDI_L-V840QHrLGQTcjB-XQg1IcY83E2X1u9TQNlo34PLXmRr_Oz4UPZjBgDmofmeVT5pGNr2859Xo-v2ki-4tUmf4yXnfDxq2VmhLJb4IYK59NoQNHjuiVAFviw-vaXt8g_jmAW8hCLywwtKVNqt3mWss6ajDL7zS0zq47CCXoXBXRZqcJ9_6fGnyioi_F02oZyFFqoiTuFjUH03kzPQ7v4EJZhTWbwOLmVHmpzBImrx2AJpf4KdXpSbAcdSne-3uMWfMQliKF5o4n9ZIFbN8V6UaCdtdE9PVjg/p.png?fv_content=true&size_mode=5",
+      "name": "X-Burgue",
+      "category": "Sanduíches",
+      "price": 16.0,
       "id": 2
     },
     {
-      "name": "Nelma",
-      "type": "parents",
-      "age": 61,
-      "userId": 2,
+      "image": "https://previews.dropbox.com/p/thumb/ABUBRbMuUPR6b9Sxx_4AMJ1eheACL5Qi2_ZQRvDZchEh5p2LZy1fweofRCuKGkA-eGQXNrQBjHCB6vXePY6kRSAmaEBfF0F9VfZMF-dphIJpKhXaddtffo8uwDJcujlXiZw2AMU9miiDpInD8pTdbpTSpZwjVm8vJChew_55pu_sBRhpHl5bHjx-hmAKmBr0js6KH6W_ivL_8Qx178XOcmaGFkBKPMsSK6CICbIatJH8mDgozDyMCdrqzcJPbDlyW_XpMdA0QPeRVu24zOR6ecHwdYeZaUpArs5q5-fQ24ycrS4TCkh17pcjfWG3gD03EV8ZEtbbe13QR_jZ21XpnH-qT555LcPvDPL2dDOuCtstnw/p.png?fv_content=true&size_mode=5",
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 18.0,
       "id": 3
     },
     {
-      "name": "Pamela",
-      "type": "brothers",
-      "age": 25,
-      "userId": 2,
+      "image": "https://previews.dropbox.com/p/thumb/ABU-VCEhSXAakt-TGutOXRawUfVY7Rbnw95DFdW8hF8gpz70EH1DhBTmob50TqVSorwr4p7sgm6q2q0vK71KMuMDimPW6gb74znb1hGVxmBw_NlS894dDo2hp7DEYMSuoFe6H7wcSwk34BECSAENwWc0u1inVJ-V4kfYnZ7pONyv7meN6GUZ9O5EhAr7au6WBTOv5grDf1MQEL6f1uU5KvscSM4vms1-bPA176NHdR2yXWqYY8RNZIvKJQ5HwEzMIFh4QV6mOMwk5ckvqkBCaELoKU3gyLtzkinEmr5TdHOZAnz8pBtg7QA3ORpjMtpYLbKZ3ATgbvLw0aOJLRH6L2_DWYTbWtPus54QrlOnHY1yVQ/p.png?fv_content=true&size_mode=5",
+      "name": "Combo Kenzie",
+      "category": "Sanduíches",
+      "price": 26.0,
       "id": 4
+    },
+    {
+      "image": "https://previews.dropbox.com/p/thumb/ABWsdycDaqi_zT2MIEZO9WRJIqDvjyBwTvI-FXxZf5CMyvFTnvQrLkDxPbs4CicSfG8fMNAk_g59tMoYfHsPt_G0EPnoXFPijWNQlTGxaGTNwb2bE4_INSJLFtI_bRhlsc_9IKUrEIrSL_XXqzyCysQ-Q4LDibXL0gl-qe0VsKI2GzzTJtsVud4VqSBCLzSzETxbKluTU7uzLk5iKVToXL5UhHuLLjPSUH6jyvboWN9zHjUcW_CtiXcamNq_44awWj4T3mrpnQNr_eDb_9Y--wItCHeLoxiMfTjvc8V804B84v_-DEAT_OQQ100iuL1mHW5sMIj3VO4YbR1kT9zY-NLnogluoqIO7BzdSZidY9xxbg/p.png?fv_content=true&size_mode=5",
+      "name": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 5.0,
+      "id": 5
+    },
+    {
+      "image": "https://previews.dropbox.com/p/thumb/ABU27_Ga460ErW70Ah_7Ipkq-GpOfG4NRN1eIcxFjqZsBvfq-mUK-blL_4K40Au-EXg7r5E51yNCye5uefAQjr_zerXFX4eSdGptTcoB1Faoy-_qPnEwNqOlbRCG2jMre1bhesUMf6d8SHXHObNiXGd-hKM17fBQApw3XAGimertvguRfBvSVg903kWJn0cX_pg_fk82dPORsTaQ7h8ky1Pb0dDypYzGe_XPYJin12MvWWbOqtaMfCIKEzHsWd725pzPXbjnyMIJW7d6cjzB8R7wsHK3Tg7lwqoa6_kHuM42A5T38sN76FClQ5h8ciKHnJP5Z3TRjcopuUrendetUKnZ96OfFVHd__qf63fnO5zxwA/p.png?fv_content=true&size_mode=5",
+      "name": "Coca Cola",
+      "category": "Bebidas",
+      "price": 7.0,
+      "id": 6
+    },
+    {
+      "image": "https://previews.dropbox.com/p/thumb/ABUmf5ujO6NPm-AUsfnLsu-qe5MkvzH_XpJcJ9VVCVluZIr5orBKuPgEcMGH7jfCUFe3GuZZlmLcVHZ9-Tktsp4gilJb44MtxfpKl0yS_MVX5USpOiMFDEovz8olCRF4Vgq0z-rOGwme8AJxFKlHDA7pp5NTjHe3W2BM8PXhYcvSkLPIz_WGDhCe9Ijtg74SefdvODn6wS-opQzRAoNF5nKsztghtXaMdpky1JLEIKDpLm_W0C-76UXwl0UOK959j1R3eUitwY-vNKXWnOB523PnDm7OQKaRP1fKjWoY2yYuFQNNCxgkxoeozyJADZMwHYZfxUdhE8PFDnPEgdG4H21HKGz2ijXA-NbIOM_mJSu2Og/p.png?fv_content=true&size_mode=5",
+      "name": "McShake Ovomaltine",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "id": 7
+    },
+    {
+      "image": "https://previews.dropbox.com/p/thumb/ABU83WyrJ61BGAnRcUwonU_MYPxqshK8MRs6AyggFfOSJboQYKXPUq4nay-pyyVBehWbN7SKxyx6qNkAurNIUc_0323_wUM3tHsSmYa-NnlGKDJP5UZGu1rUd47496lhuhT3kniIx5kKbGvWMjcl59XA7XZahjK9pITiwKunSbzaAflDDN8hfKWWkMA3Qh1F1PecpT9HXVRPgrwd8AUvWnQzZx_r6sVJKj5ZX0gu1Bn8_nuN3ESKO-lc61S39_IsHpb4gt5x-eZugGSdEmb2JURr-fgxJeQvIBfVwtWPGfcbepx7UYoUPFNDoWdz7EG0_Di1p_CsSdhpSZEa-4mtOksneYzIjKEuYIy9jj4UtT9eqg/p.png?fv_content=true&size_mode=5",
+      "name": "McSundae",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "id": 8
     }
   ],
-  "contacts": [
-    {
-      "phoneNumber": "51983238380",
-      "type": "Phone",
-      "country": "Brasil",
-      "state": "Rio Grande do Sul",
-      "city": "Canoas",
-      "address": "Rua Boqueirão",
-      "number": 3521,
-      "CEP": 92200170,
-      "userId": 2,
-      "id": 1
-    }
-  ],
-  "groups": [
-    {
-      "name": "We love React",
-      "id": 1
-    }
-  ]
+  "cart": []
 }
