@@ -107,35 +107,27 @@ O retorno da requisição será:
 
 [
 {
-"name": "Benjamin",
-"type": "Pet",
-"age": 5,
-"userId": 2,
-"id": 1
+"image": "https://lh5.googleusercontent.com/1S54mVj3Ilzub0YAraopjxsjIjuYBg_UoI0pIW-rZ5Gma2HekfMil5xQltXqY28oraXo04gouPkCuQ=w1920-h978",
+"name": "Hamburguer",
+"category": "Sanduíches",
+"price": 14,
+"id": 1,
+"quantity": 1,
+"userId": 1
 },
 {
-"name": "Mari Santos",
-"type": "wife",
-"age": 31,
-"userId": 2,
-"id": 2
-},
-{
-"name": "Nelma",
-"type": "parents",
-"age": 61,
-"userId": 2,
-"id": 3
-},
-{
-"name": "Pamela",
-"type": "brothers",
-"age": 25,
-"userId": 2,
-"id": 4
+"image": "https://lh5.googleusercontent.com/1S54mVj3Ilzub0YAraopjxsjIjuYBg_UoI0pIW-rZ5Gma2HekfMil5xQltXqY28oraXo04gouPkCuQ=w1920-h978",
+"name": "Hamburguer",
+"category": "Sanduíches",
+"price": 14,
+"id": 2,
+"quantity": 1,
+"userId": 2
 }
 ]
 
 Caso o usuário não esteja logado, o seguinte erro retornará:
 
 401 Unauthorized "Missing token".
+
+GET /users/id/cart
