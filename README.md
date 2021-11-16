@@ -24,48 +24,84 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 ### Novas Rotas
 
-POST /dependents
+GET /products
 
-dependents é uma rota 640, significa o usuário tem que ser dono do item que ele irá gravar.
-O atributo userId é obrigatório para vincular com o usuário
-que está cadastrado na plataforma.
-
-Exemplo de cadastro de dependentes:
-
-{
-"name": "Benjamin",
-"type": "Pet",
-"age": 5,
-"userId": 2,
-}
-
-"userId" foi retirado do "id" do cadastro do Patrick:
-
-{
-"email": "patrickarruda30@gmail.com",
-"password": "$2a$10$XB5poKRkpGQu4FFbjkLdV.wP0ZcBI2lYPsFOGs7QS7t8KCX59LxY.",
-"name": "Patrick",
-"age": 22,
-"id": 2
-}
+dependents é uma rota 444, significa que ninguém pode escrever o recurso e que qualquer usuário pode visualiza-lo.
 
 A resposta da requisição após registrar será:
 
 {
-"name": "Benjamin",
-"type": "Pet",
-"age": 5,
-"userId": 2,
-"id": 1
+[
+{
+"image": "https://i.ibb.co/P1QVcr0/202109090436-skn5yx754p-1.png",
+"name": "Hamburguer",
+"category": "Sanduíches",
+"price": 14,
+"id": 1,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/MVKPDNs/202109200440-8fcy91zr6le-1.png",
+"name": "X-Burgue",
+"category": "Sanduíches",
+"price": 16,
+"id": 2,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/MfVR2kc/202109200440-749eet5vy86-1.png",
+"name": "Big Kenzie",
+"category": "Sanduíches",
+"price": 18,
+"id": 3,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/WvntLND/202110050424-xijoowz172-1.png",
+"name": "Combo Kenzie",
+"category": "Sanduíches",
+"price": 26,
+"id": 4,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/C7Sd4Z5/202108180426-tbwjnwcd1zq-1.png",
+"name": "Fanta Guaraná",
+"category": "Bebidas",
+"price": 5,
+"id": 5,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/nPSXrKp/202108180426-861zezb4bh-1.png",
+"name": "Coca Cola",
+"category": "Bebidas",
+"price": 7,
+"id": 6,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/CJH3RG7/202108250455-4498m9wq98e-1.png",
+"name": "McShake Ovomaltine",
+"category": "Sobremesas",
+"price": 10,
+"id": 7,
+"quantity": 1
+},
+{
+"image": "https://i.ibb.co/312j11Q/202110110503-g22mtz565td-1.png",
+"name": "McSundae",
+"category": "Sobremesas",
+"price": 10,
+"id": 8,
+"quantity": 1
+}
+]
 }
 
-Caso tente efetuar registro sem estar logado, o seguinte erro irá retornar:
+GET /cart
 
-401 Unauthorized "Missing token"
-
-GET /dependents
-
-Para efetuar o get da rota dependents, os usuários precisam estar logados.
+Para efetuar o get da rota cart, os usuários precisam possuir o recurso e estarem logados.
 
 O retorno da requisição será:
 
@@ -101,87 +137,5 @@ O retorno da requisição será:
 ]
 
 Caso o usuário não esteja logado, o seguinte erro retornará:
-
-401 Unauthorized "Missing token"
-
-POST /contacts
-
-contacts é uma rota 644, significa que o usuário tem que ser dono do item que ele irá gravar.
-O atributo userId é obrigatório para vincular com o usuário
-que está cadastrado na plataforma.
-
-Exemplo de cadastro de contacts:
-
-{
-"phoneNumber": "51983238380",
-"type": "Phone",
-"country": "Brasil",
-"state": "Rio Grande do Sul",
-"city": "Canoas",
-"address": "Rua Boqueirão",
-"number": 3521,
-"CEP": 92200170,
-"userId": 2,
-}
-
-"userId" foi retirado do "id" do cadastro do Patrick:
-
-{
-"email": "patrickarruda30@gmail.com",
-"password": "$2a$10$XB5poKRkpGQu4FFbjkLdV.wP0ZcBI2lYPsFOGs7QS7t8KCX59LxY.",
-"name": "Patrick",
-"age": 22,
-"id": 2
-}
-
-GET /contacts
-
-Para efetuar o get da rota dependents, os usuários não precisam estar logados.
-
-O retorno da requisição será:
-
-[
-{
-"phoneNumber": "51983238380",
-"type": "Phone",
-"country": "Brasil",
-"state": "Rio Grande do Sul",
-"city": "Canoas",
-"address": "Rua Boqueirão",
-"number": 3521,
-"CEP": 92200170,
-"userId": 2,
-"id": 1
-}
-]
-
-POST /groups
-
-groups é uma rota 660, significa que o usuário precisa estar logado para gravar ou ler o item.
-
-Exemplo de cadastro de groups:
-
-{
-"name": "We love React"
-}
-
-Caso tente efetuar registro sem estar logado, o seguinte erro irá retornar:
-
-401 Unauthorized "Missing token"
-
-GET /groups
-
-O usuário precisa estar logado para conseguir ler o item.
-
-O retorno da requisição será:
-
-[
-{
-"name": "We love React",
-"id": 1
-}
-]
-
-Caso tente efetuar registro sem estar logado, o seguinte erro irá retornar:
 
 401 Unauthorized "Missing token".
