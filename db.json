@@ -83,6 +83,15 @@
       "id": 1,
       "quantity": 1,
       "userId": 1
+    },
+    {
+      "image": "https://lh5.googleusercontent.com/1S54mVj3Ilzub0YAraopjxsjIjuYBg_UoI0pIW-rZ5Gma2HekfMil5xQltXqY28oraXo04gouPkCuQ=w1920-h978",
+      "name": "Hamburguer",
+      "category": "Sanduíches",
+      "price": 14.0,
+      "id": 2,
+      "quantity": 1,
+      "userId": 1
     }
   ]
 }
